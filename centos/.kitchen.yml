@@ -1,0 +1,14 @@
+---
+driver:
+  name: vagrant
+
+platforms:
+  - name: centos-6.6
+    driver:
+      box: centos-6.6
+      box_url: centos-6.6
+
+suites:
+  - name: default
+    run_list:
+    attributes:
